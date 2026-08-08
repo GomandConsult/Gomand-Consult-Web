@@ -34,8 +34,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const updateParallax = () => {
       const y = window.scrollY;
       blobs.forEach((el, i) => {
-        el.style.setProperty('--py', (y * speeds[i % speeds.length]).toFixed(1) + 'px');
-        el.style.setProperty('--px', (y * speeds[i % speeds.length] * 0.3).toFixed(1) + 'px');
+        const py = y * speeds[i % speeds.length];
+        const px = py * 0.3;
+        el.style.translate = `${px.toFixed(1)}px ${py.toFixed(1)}px`;
       });
       ticking = false;
     };

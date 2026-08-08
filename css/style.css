@@ -289,8 +289,8 @@ p { color: var(--ink-soft); text-wrap: pretty; }
   animation: blobFloat 32s ease-in-out infinite;
 }
 @keyframes blobFloat {
-  0%, 100% { transform: translate(var(--px, 0px), var(--py, 0px)) translate(0%, 0%) scale(1); }
-  50% { transform: translate(var(--px, 0px), var(--py, 0px)) translate(-3%, 3%) scale(1.07); }
+  0%, 100% { transform: translate(0%, 0%) scale(1); }
+  50% { transform: translate(-3%, 3%) scale(1.07); }
 }
 @media (prefers-reduced-motion: reduce) {
   .hero-blob { animation: none; }
