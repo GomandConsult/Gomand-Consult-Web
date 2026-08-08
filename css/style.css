@@ -261,7 +261,7 @@ p { color: var(--ink-soft); text-wrap: pretty; }
   height: 54vw;
   max-height: 640px;
   background: var(--gold);
-  opacity: 0.45;
+  opacity: 0.58;
   top: -20%;
   right: -12%;
   animation: blobFloat 24s ease-in-out infinite;
@@ -272,7 +272,7 @@ p { color: var(--ink-soft); text-wrap: pretty; }
   height: 46vw;
   max-height: 560px;
   background: var(--cobalt-light);
-  opacity: 0.4;
+  opacity: 0.52;
   bottom: -24%;
   left: -10%;
   animation: blobFloat 28s ease-in-out infinite reverse;
@@ -283,7 +283,7 @@ p { color: var(--ink-soft); text-wrap: pretty; }
   height: 30vw;
   max-height: 380px;
   background: var(--cobalt);
-  opacity: 0.35;
+  opacity: 0.46;
   top: 32%;
   left: 30%;
   animation: blobFloat 32s ease-in-out infinite;
