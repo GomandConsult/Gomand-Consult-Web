@@ -775,3 +775,49 @@ a:focus-visible, button:focus-visible {
   outline: 2px solid var(--cobalt);
   outline-offset: 2px;
 }
+
+/* ============ COOKIE CONSENT BANNER ============ */
+.cookie-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 200;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: var(--ink);
+  color: rgba(255,255,255,0.88);
+  padding: 20px 32px;
+  box-shadow: 0 -8px 24px rgba(0,0,0,0.15);
+}
+.cookie-banner p {
+  color: rgba(255,255,255,0.82);
+  font-size: 0.88rem;
+  max-width: 62ch;
+  margin: 0;
+}
+.cookie-banner p a {
+  color: var(--white);
+  text-decoration: underline;
+}
+.cookie-banner-actions {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+.cookie-banner .btn-ghost {
+  background: transparent;
+  border-color: rgba(255,255,255,0.4);
+  color: var(--white);
+}
+.cookie-banner .btn-ghost:hover {
+  border-color: var(--white);
+}
+@media (max-width: 720px) {
+  .cookie-banner { flex-direction: column; align-items: flex-start; padding: 20px 24px; }
+  .cookie-banner-actions { width: 100%; }
+  .cookie-banner-actions .btn { flex: 1; justify-content: center; }
+}

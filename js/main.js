@@ -1,3 +1,61 @@
+// Cookie consent + Google Analytics (gtag.js only loads after explicit consent)
+(function () {
+  const GA_ID = 'G-GKBR42WWZ7';
+  const CONSENT_KEY = 'gc_cookie_consent';
+
+  function loadGA() {
+    if (window.gcGaLoaded) return;
+    window.gcGaLoaded = true;
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+    document.head.appendChild(script);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', GA_ID);
+  }
+
+  function showBanner() {
+    if (document.querySelector('.cookie-banner')) return;
+    const banner = document.createElement('div');
+    banner.className = 'cookie-banner';
+    banner.setAttribute('role', 'dialog');
+    banner.setAttribute('aria-label', 'Préférences cookies');
+    banner.innerHTML =
+      '<p>Nous utilisons des cookies essentiels au fonctionnement du site et, avec votre accord, Google Analytics pour comprendre comment le site est utilisé. <a href="' +
+      (location.pathname.includes('/services/') ? '../' : '') +
+      'politique-cookies.html">En savoir plus</a>.</p>' +
+      '<div class="cookie-banner-actions">' +
+      '<button type="button" class="btn btn-ghost" data-cookie-action="decline">Refuser</button>' +
+      '<button type="button" class="btn btn-primary" data-cookie-action="accept">Accepter</button>' +
+      '</div>';
+    document.body.appendChild(banner);
+    banner.querySelector('[data-cookie-action="accept"]').addEventListener('click', () => {
+      localStorage.setItem(CONSENT_KEY, 'accepted');
+      banner.remove();
+      loadGA();
+    });
+    banner.querySelector('[data-cookie-action="decline"]').addEventListener('click', () => {
+      localStorage.setItem(CONSENT_KEY, 'declined');
+      banner.remove();
+    });
+  }
+
+  const consent = localStorage.getItem(CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadGA();
+  } else if (consent !== 'declined') {
+    showBanner();
+  }
+
+  window.gcReopenCookieBanner = function () {
+    const existing = document.querySelector('.cookie-banner');
+    if (existing) existing.remove();
+    showBanner();
+  };
+})();
+
 // Mobile nav toggle
 document.addEventListener('DOMContentLoaded', () => {
   const toggle = document.querySelector('.nav-toggle');
