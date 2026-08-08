@@ -320,7 +320,8 @@ p { color: var(--ink-soft); text-wrap: pretty; }
 .hero-immersive-content {
   position: relative;
   z-index: 2;
-  padding: 140px 0 120px;
+  padding-top: 140px;
+  padding-bottom: 120px;
   width: 100%;
 }
 .hero-immersive-content .eyebrow {
@@ -732,10 +733,41 @@ section {
 }
 
 @media (max-width: 720px) {
-  .nav-desktop { display: none; }
-  .nav-toggle { display: flex; }
+  .site-header .container { flex-wrap: wrap; height: auto; padding: 24px 32px; }
+  .logo { order: 1; }
+  .nav-toggle { display: flex; order: 2; }
+  .site-header .btn-primary { display: none; }
+  .nav-desktop {
+    display: none;
+    order: 3;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 16px 0 8px;
+    border-top: 1px solid var(--line);
+    margin-top: 12px;
+  }
+  .nav-desktop.nav-open { display: flex; }
+  .nav-desktop a { width: 100%; padding: 10px 4px; }
+  .nav-desktop.nav-open ~ .btn-primary {
+    display: inline-flex;
+    order: 4;
+    width: 100%;
+    justify-content: center;
+    margin: 4px 0 16px;
+  }
+  .nav-toggle span { transition: transform 0.2s ease, opacity 0.2s ease; }
+  .nav-toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+  .nav-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
   .cta-band-inner { flex-direction: column; align-items: flex-start; }
   .footer-grid { grid-template-columns: 1fr; }
+  /* Several pages set a 2-column split-content grid via inline style; force it to stack on mobile */
+  .container[style*="grid-template-columns"] {
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+  }
 }
 
 /* focus visibility */
