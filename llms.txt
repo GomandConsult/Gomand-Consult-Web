@@ -18,9 +18,16 @@ Gomand Consult accompagne les dirigeants de PME qui n'ont ni le temps ni l'exper
 - [FAQ](https://www.gomandconsult.com/faq.html): Réponses détaillées sur les tarifs, la méthode de travail, les secteurs accompagnés, la durée des missions et les langues de travail.
 - [Contact](https://www.gomandconsult.com/contact.html): Consultation gratuite de 45 minutes, sans engagement. Email : hello@gomandconsult.com.
 
+## Knowledge Lab
+
+- [Knowledge Lab](https://www.gomandconsult.com/knowledge-lab.html): Articles et ressources sur le branding, la stratégie marketing orientée ROI, la digitalisation et le terrain PME.
+- [Le branding orienté ROI](https://www.gomandconsult.com/knowledge-lab/branding-oriente-roi.html): Pourquoi une identité de marque doit être un actif mesurable, pas un exercice esthétique.
+- [L'audit marketing](https://www.gomandconsult.com/knowledge-lab/audit-marketing-point-de-depart.html): Le point de départ le plus sous-estimé — et souvent le plus rentable — avant tout investissement marketing.
+- [SEO et GEO](https://www.gomandconsult.com/knowledge-lab/seo-geo-ia-generatives.html): Comment structurer un site pour être trouvé par Google et par les IA génératives (ChatGPT, Claude, Perplexity).
+- [5 erreurs marketing des PME wallonnes](https://www.gomandconsult.com/knowledge-lab/erreurs-marketing-pme-wallonie.html): Cinq schémas fréquents chez les PME, et comment les corriger sans gros budget.
+
 ## Optional
 
-- [Knowledge Lab](https://www.gomandconsult.com/knowledge-lab.html): Ressources à venir sur le branding, la stratégie marketing orientée ROI et la digitalisation pour PME.
 - [Mentions légales](https://www.gomandconsult.com/mentions-legales.html): Gomand Consult SRL, Rue du Moulin 35, 1457 Walhain, Belgique.
 - [Politique de confidentialité](https://www.gomandconsult.com/politique-confidentialite.html)
 - [Politique de cookies](https://www.gomandconsult.com/politique-cookies.html)
