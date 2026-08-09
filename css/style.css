@@ -3,14 +3,12 @@
    Palette: paper white / graphite ink / cobalt / gold accent
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;1,400;1,500&display=swap');
-
 :root {
   --paper: #F1F3F5;
   --paper-dim: #E4E9EC;
   --ink: #252A2B;
-  --ink-soft: #5A6E73;
-  --ink-faint: #859CA6;
+  --ink-soft: #4E6469;
+  --ink-faint: #536770;
   --cobalt: #324A59;
   --cobalt-light: #687E8C;
   --gold: #E86A4A;
@@ -555,9 +553,9 @@ section {
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: #9C4423;
 }
-.service-card h3 {
+.service-card h2, .service-card h3 {
   margin: 14px 0 12px;
 }
 .service-card p {
@@ -589,7 +587,7 @@ section {
   padding-top: 20px;
   border-top: 1px solid var(--ink);
 }
-.trust-item h4 {
+.trust-item h3 {
   font-size: 1.05rem;
   margin-bottom: 8px;
 }
@@ -638,7 +636,7 @@ section {
   gap: 40px;
   padding-bottom: 48px;
 }
-.footer-col h5 {
+.footer-col h2, .footer-col h3 {
   font-family: var(--font-display);
   font-size: 0.82rem;
   font-weight: 700;

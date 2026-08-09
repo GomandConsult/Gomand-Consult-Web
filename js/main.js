@@ -22,9 +22,10 @@
     banner.className = 'cookie-banner';
     banner.setAttribute('role', 'dialog');
     banner.setAttribute('aria-label', 'Préférences cookies');
+    const depthPrefix = (location.pathname.includes('/services/') || location.pathname.includes('/knowledge-lab/')) ? '../' : '';
     banner.innerHTML =
       '<p>Nous utilisons des cookies essentiels au fonctionnement du site et, avec votre accord, Google Analytics pour comprendre comment le site est utilisé. <a href="' +
-      (location.pathname.includes('/services/') ? '../' : '') +
+      depthPrefix +
       'politique-cookies.html">En savoir plus</a>.</p>' +
       '<div class="cookie-banner-actions">' +
       '<button type="button" class="btn btn-ghost" data-cookie-action="decline">Refuser</button>' +
@@ -58,6 +59,11 @@
 
 // Mobile nav toggle
 document.addEventListener('DOMContentLoaded', () => {
+  const cookiePrefsBtn = document.getElementById('cookie-prefs-btn');
+  if (cookiePrefsBtn) {
+    cookiePrefsBtn.addEventListener('click', () => window.gcReopenCookieBanner());
+  }
+
   const toggle = document.querySelector('.nav-toggle');
   const nav = document.querySelector('.nav-desktop');
   if (toggle && nav) {
