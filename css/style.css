@@ -819,3 +819,28 @@ a:focus-visible, button:focus-visible {
   .cookie-banner-actions { width: 100%; }
   .cookie-banner-actions .btn { flex: 1; justify-content: center; }
 }
+
+/* ============ CONTACT FORM FEEDBACK ============ */
+.form-success {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 32px;
+}
+.form-success h3 {
+  color: var(--cobalt);
+  margin-bottom: 10px;
+}
+.form-success p {
+  color: var(--ink-soft);
+}
+.form-error {
+  background: var(--gold-soft);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  font-size: 0.9rem;
+  color: var(--ink);
+  margin-bottom: 20px;
+}

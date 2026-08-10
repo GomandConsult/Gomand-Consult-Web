@@ -64,6 +64,48 @@ document.addEventListener('DOMContentLoaded', () => {
     cookiePrefsBtn.addEventListener('click', () => window.gcReopenCookieBanner());
   }
 
+  // Submit the contact form via fetch so we can show an on-brand confirmation
+  // instead of Netlify's default (English) redirect page.
+  const netlifyForm = document.querySelector('form[data-netlify="true"]');
+  if (netlifyForm) {
+    netlifyForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const submitBtn = netlifyForm.querySelector('button[type="submit"]');
+      const originalLabel = submitBtn ? submitBtn.textContent : '';
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Envoi en cours...';
+      }
+
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(new FormData(netlifyForm)).toString(),
+      })
+        .then((res) => {
+          if (!res.ok) throw new Error('submission failed');
+          const success = document.createElement('div');
+          success.className = 'form-success';
+          success.innerHTML =
+            '<h3>Message envoyé</h3><p>Merci, votre message a bien été reçu. Je vous réponds personnellement sous 48h.</p>';
+          netlifyForm.replaceWith(success);
+        })
+        .catch(() => {
+          let error = netlifyForm.querySelector('.form-error');
+          if (!error) {
+            error = document.createElement('p');
+            error.className = 'form-error';
+            error.textContent = 'Une erreur est survenue. Réessayez, ou écrivez-nous directement à hello@gomandconsult.com.';
+            netlifyForm.prepend(error);
+          }
+          if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.textContent = originalLabel;
+          }
+        });
+    });
+  }
+
   const toggle = document.querySelector('.nav-toggle');
   const nav = document.querySelector('.nav-desktop');
   if (toggle && nav) {
