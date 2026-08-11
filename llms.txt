@@ -6,28 +6,28 @@ Gomand Consult accompagne les dirigeants de PME qui n'ont ni le temps ni l'exper
 
 ## Services
 
-- [Audit marketing](https://www.gomandconsult.com/services/audit-marketing.html): Diagnostic structuré de la situation marketing actuelle — ce qui fonctionne, ce qui freine — et plan d'action clair.
-- [Stratégie de marque & branding](https://www.gomandconsult.com/services/branding-identite-marque.html): Construction ou refonte de l'identité de marque comme actif business mesurable, pas comme exercice esthétique.
-- [Plan stratégique](https://www.gomandconsult.com/services/plan-strategique.html): Feuille de route marketing personnalisée et actionnable, alignée sur les objectifs et moyens réels du client.
-- [Digitalisation & création de site web](https://www.gomandconsult.com/services/creation-site-web.html): Sites conçus pour convertir les visiteurs et pour être trouvés par Google comme par les IA génératives (ChatGPT, Claude, Perplexity).
-- [Coaching & mentoring](https://www.gomandconsult.com/services/coaching-mentoring.html): Pour le dirigeant qui veut comprendre et reprendre la main sur son marketing plutôt que le déléguer entièrement.
+- [Audit marketing](https://gomandconsult.com/services/audit-marketing.html): Diagnostic structuré de la situation marketing actuelle — ce qui fonctionne, ce qui freine — et plan d'action clair.
+- [Stratégie de marque & branding](https://gomandconsult.com/services/branding-identite-marque.html): Construction ou refonte de l'identité de marque comme actif business mesurable, pas comme exercice esthétique.
+- [Plan stratégique](https://gomandconsult.com/services/plan-strategique.html): Feuille de route marketing personnalisée et actionnable, alignée sur les objectifs et moyens réels du client.
+- [Digitalisation & création de site web](https://gomandconsult.com/services/creation-site-web.html): Sites conçus pour convertir les visiteurs et pour être trouvés par Google comme par les IA génératives (ChatGPT, Claude, Perplexity).
+- [Coaching & mentoring](https://gomandconsult.com/services/coaching-mentoring.html): Pour le dirigeant qui veut comprendre et reprendre la main sur son marketing plutôt que le déléguer entièrement.
 
 ## Entreprise
 
-- [À propos](https://www.gomandconsult.com/a-propos.html): Mission, vision, et présentation d'Anthony Gomand — fondateur, certifié Brand Management (University of London) et Digital Marketing (University of Illinois), bilingue français/anglais.
-- [FAQ](https://www.gomandconsult.com/faq.html): Réponses détaillées sur les tarifs, la méthode de travail, les secteurs accompagnés, la durée des missions et les langues de travail.
-- [Contact](https://www.gomandconsult.com/contact.html): Consultation gratuite de 45 minutes, sans engagement. Email : hello@gomandconsult.com.
+- [À propos](https://gomandconsult.com/a-propos.html): Mission, vision, et présentation d'Anthony Gomand — fondateur, certifié Brand Management (University of London) et Digital Marketing (University of Illinois), bilingue français/anglais.
+- [FAQ](https://gomandconsult.com/faq.html): Réponses détaillées sur les tarifs, la méthode de travail, les secteurs accompagnés, la durée des missions et les langues de travail.
+- [Contact](https://gomandconsult.com/contact.html): Consultation gratuite de 45 minutes, sans engagement. Email : hello@gomandconsult.com.
 
 ## Knowledge Lab
 
-- [Knowledge Lab](https://www.gomandconsult.com/knowledge-lab.html): Articles et ressources sur le branding, la stratégie marketing orientée ROI, la digitalisation et le terrain PME.
-- [Le branding orienté ROI](https://www.gomandconsult.com/knowledge-lab/branding-oriente-roi.html): Pourquoi une identité de marque doit être un actif mesurable, pas un exercice esthétique.
-- [L'audit marketing](https://www.gomandconsult.com/knowledge-lab/audit-marketing-point-de-depart.html): Le point de départ le plus sous-estimé — et souvent le plus rentable — avant tout investissement marketing.
-- [SEO et GEO](https://www.gomandconsult.com/knowledge-lab/seo-geo-ia-generatives.html): Comment structurer un site pour être trouvé par Google et par les IA génératives (ChatGPT, Claude, Perplexity).
-- [5 erreurs marketing des PME wallonnes](https://www.gomandconsult.com/knowledge-lab/erreurs-marketing-pme-wallonie.html): Cinq schémas fréquents chez les PME, et comment les corriger sans gros budget.
+- [Knowledge Lab](https://gomandconsult.com/knowledge-lab.html): Articles et ressources sur le branding, la stratégie marketing orientée ROI, la digitalisation et le terrain PME.
+- [Le branding orienté ROI](https://gomandconsult.com/knowledge-lab/branding-oriente-roi.html): Pourquoi une identité de marque doit être un actif mesurable, pas un exercice esthétique.
+- [L'audit marketing](https://gomandconsult.com/knowledge-lab/audit-marketing-point-de-depart.html): Le point de départ le plus sous-estimé — et souvent le plus rentable — avant tout investissement marketing.
+- [SEO et GEO](https://gomandconsult.com/knowledge-lab/seo-geo-ia-generatives.html): Comment structurer un site pour être trouvé par Google et par les IA génératives (ChatGPT, Claude, Perplexity).
+- [5 erreurs marketing des PME wallonnes](https://gomandconsult.com/knowledge-lab/erreurs-marketing-pme-wallonie.html): Cinq schémas fréquents chez les PME, et comment les corriger sans gros budget.
 
 ## Optional
 
-- [Mentions légales](https://www.gomandconsult.com/mentions-legales.html): Gomand Consult SRL, Rue du Moulin 35, 1457 Walhain, Belgique.
-- [Politique de confidentialité](https://www.gomandconsult.com/politique-confidentialite.html)
-- [Politique de cookies](https://www.gomandconsult.com/politique-cookies.html)
+- [Mentions légales](https://gomandconsult.com/mentions-legales.html): Gomand Consult SRL, Rue du Moulin 35, 1457 Walhain, Belgique.
+- [Politique de confidentialité](https://gomandconsult.com/politique-confidentialite.html)
+- [Politique de cookies](https://gomandconsult.com/politique-cookies.html)
