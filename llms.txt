@@ -21,6 +21,7 @@ Gomand Consult accompagne les dirigeants de PME qui n'ont ni le temps ni l'exper
 ## Knowledge Lab
 
 - [Knowledge Lab](https://gomandconsult.com/knowledge-lab.html): Articles et ressources sur le branding, la stratégie marketing orientée ROI, la digitalisation et le terrain PME.
+- [Nom de marque et réputation](https://gomandconsult.com/knowledge-lab/nom-marque-reputation-par-ou-commencer.html): Par lequel commencer quand on lance son activité — identité ou réputation.
 - [Le branding orienté ROI](https://gomandconsult.com/knowledge-lab/branding-oriente-roi.html): Pourquoi une identité de marque doit être un actif mesurable, pas un exercice esthétique.
 - [L'audit marketing](https://gomandconsult.com/knowledge-lab/audit-marketing-point-de-depart.html): Le point de départ le plus sous-estimé — et souvent le plus rentable — avant tout investissement marketing.
 - [SEO et GEO](https://gomandconsult.com/knowledge-lab/seo-geo-ia-generatives.html): Comment structurer un site pour être trouvé par Google et par les IA génératives (ChatGPT, Claude, Perplexity).

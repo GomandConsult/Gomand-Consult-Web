@@ -1,0 +1,157 @@
+{
+  "_comment": "Backlog éditorial du Knowledge Lab. Utilisé par la tâche planifiée qui publie 2 articles/semaine. Voir knowledge-lab/AUTOMATION.md pour le mode d'emploi complet. Rotation fixe des catégories : Branding & identité -> Stratégie & ROI -> Digitalisation -> PME & terrain -> (repeat). Ne pas réordonner manuellement sans mettre à jour 'rotation_index'.",
+  "rotation_index": 1,
+  "categories_order": ["Branding & identité", "Stratégie & ROI", "Digitalisation", "PME & terrain"],
+  "image_by_category": {
+    "Branding & identité": "images/service-branding.jpg",
+    "Stratégie & ROI": "images/service-audit.jpg",
+    "Digitalisation": "images/service-digital.jpg",
+    "PME & terrain": "images/office.jpg"
+  },
+  "topics": [
+    {
+      "id": 1,
+      "status": "published",
+      "published_date": "2026-08-13",
+      "category": "Branding & identité",
+      "title": "Nom de marque et réputation : par lequel commencer quand on lance son activité",
+      "slug": "nom-marque-reputation-par-ou-commencer",
+      "cta_service": "services/branding-identite-marque.html"
+    },
+    {
+      "id": 2,
+      "status": "todo",
+      "category": "Stratégie & ROI",
+      "title": "Les 4P appliqués à une PME : un cadre simple pour ne rien oublier",
+      "slug": "4p-marketing-pme-cadre-simple",
+      "angle": "Reprendre Produit / Prix / Place / Promotion et les traduire concrètement pour un dirigeant de PME belge, avec un exemple chiffré. Montrer que le cadre sert surtout à repérer ce qu'on a oublié, pas à cocher des cases académiques.",
+      "cta_service": "services/plan-strategique.html"
+    },
+    {
+      "id": 3,
+      "status": "todo",
+      "category": "Digitalisation",
+      "title": "Site vitrine ou site qui convertit : ce qui fait vraiment la différence",
+      "slug": "site-vitrine-vs-site-qui-convertit",
+      "angle": "Beaucoup de PME ont un site qui existe mais qui ne travaille pas commercialement. Expliquer la différence structurelle (parcours utilisateur, preuve sociale, appel à l'action clair) entre une vitrine passive et un site qui génère des contacts.",
+      "cta_service": "services/creation-site-web.html"
+    },
+    {
+      "id": 4,
+      "status": "todo",
+      "category": "PME & terrain",
+      "title": "Indépendant ou PME : pourquoi le marketing ne se pense pas de la même façon",
+      "slug": "independant-vs-pme-marketing-different",
+      "angle": "Contraintes de temps et de budget très différentes entre un indépendant seul et une PME avec équipe. Donner des priorités adaptées à chaque situation plutôt qu'un conseil universel.",
+      "cta_service": "services/audit-marketing.html"
+    },
+    {
+      "id": 5,
+      "status": "todo",
+      "category": "Branding & identité",
+      "title": "Charte graphique : ce qu'elle doit vraiment contenir pour être utile au quotidien",
+      "slug": "charte-graphique-utile-au-quotidien",
+      "angle": "Beaucoup de chartes graphiques sont de jolis PDF jamais rouverts. Détailler ce qu'une charte doit inclure pour être un outil de travail réel : exemples d'usage concrets, ton de voix, do/don't visuels.",
+      "cta_service": "services/branding-identite-marque.html"
+    },
+    {
+      "id": 6,
+      "status": "todo",
+      "category": "Stratégie & ROI",
+      "title": "Comment fixer un budget marketing réaliste quand on démarre ou qu'on relance",
+      "slug": "budget-marketing-realiste-pme",
+      "angle": "Méthode simple pour calculer un budget cohérent avec le chiffre d'affaires et les objectifs, en évitant les deux pièges classiques : sous-investir par prudence, ou sur-dépenser par précipitation.",
+      "cta_service": "services/plan-strategique.html"
+    },
+    {
+      "id": 7,
+      "status": "todo",
+      "category": "Digitalisation",
+      "title": "LinkedIn pour dirigeants de PME : une méthode simple pour être visible sans y passer ses soirées",
+      "slug": "linkedin-dirigeants-pme-methode-simple",
+      "angle": "Cadence réaliste (pas quotidienne), formats qui fonctionnent pour un dirigeant occupé, et pourquoi le contenu générique de type 'citation inspirante' ne construit aucune crédibilité.",
+      "cta_service": "services/coaching-mentoring.html"
+    },
+    {
+      "id": 8,
+      "status": "todo",
+      "category": "PME & terrain",
+      "title": "Mentoring ou délégation : que choisir selon le stade de votre entreprise",
+      "slug": "mentoring-ou-delegation-selon-stade-entreprise",
+      "angle": "Différencier l'accompagnement (le dirigeant garde la main et monte en compétence) de la délégation complète (on lui confie l'exécution). Donner des critères concrets pour savoir quand chaque approche est pertinente.",
+      "cta_service": "services/coaching-mentoring.html"
+    },
+    {
+      "id": 9,
+      "status": "todo",
+      "category": "Branding & identité",
+      "title": "Rebranding : les signaux qui indiquent qu'il est temps (et ceux qui ne le sont pas)",
+      "slug": "rebranding-signaux-quand-changer",
+      "angle": "Distinguer les vraies raisons stratégiques de changer d'identité (positionnement devenu obsolète, fusion, nouveau marché) des fausses bonnes raisons (lassitude du dirigeant, effet de mode).",
+      "cta_service": "services/branding-identite-marque.html"
+    },
+    {
+      "id": 10,
+      "status": "todo",
+      "category": "Stratégie & ROI",
+      "title": "Le tunnel de conversion d'une PME : où l'argent se perd vraiment",
+      "slug": "tunnel-conversion-pme-ou-argent-se-perd",
+      "angle": "Cartographier le parcours prospect → client en étapes simples et identifier où se situent statistiquement les plus grosses pertes pour une PME de service.",
+      "cta_service": "services/audit-marketing.html"
+    },
+    {
+      "id": 11,
+      "status": "todo",
+      "category": "Digitalisation",
+      "title": "Automatiser sans perdre le contact humain : où mettre la limite pour une petite structure",
+      "slug": "automatiser-sans-perdre-contact-humain",
+      "angle": "Quels processus automatiser sans risque (relances, prise de rendez-vous, confirmations) et lesquels garder humains (vente, gestion des insatisfactions) pour une PME ou un indépendant.",
+      "cta_service": "services/creation-site-web.html"
+    },
+    {
+      "id": 12,
+      "status": "todo",
+      "category": "PME & terrain",
+      "title": "Pourquoi les recommandations marketing génériques ne fonctionnent presque jamais pour une PME",
+      "slug": "recommandations-marketing-generiques-pme",
+      "angle": "Le décalage entre les conseils 'universels' trouvés en ligne (souvent pensés pour du e-commerce ou des budgets importants) et la réalité d'une PME wallonne avec un budget et un temps limités.",
+      "cta_service": "services/audit-marketing.html"
+    },
+    {
+      "id": 13,
+      "status": "todo",
+      "category": "Branding & identité",
+      "title": "Ton de marque : pourquoi la plupart des PME écrivent comme leurs concurrents sans s'en rendre compte",
+      "slug": "ton-de-marque-ecrire-comme-ses-concurrents",
+      "angle": "Comment un ton de voix distinctif se définit concrètement (vocabulaire, longueur de phrase, degré de formalité) et se maintient sur tous les canaux, du site aux réseaux sociaux en passant par les devis.",
+      "cta_service": "services/branding-identite-marque.html"
+    },
+    {
+      "id": 14,
+      "status": "todo",
+      "category": "Stratégie & ROI",
+      "title": "KPIs marketing : les 5 indicateurs qu'un dirigeant de PME devrait suivre chaque mois (pas plus)",
+      "slug": "kpis-marketing-5-indicateurs-pme",
+      "angle": "Éviter la paralysie par les tableaux de bord surchargés. Sélectionner les 5 chiffres qui comptent vraiment pour piloter une PME de service au mois le mois.",
+      "cta_service": "services/plan-strategique.html"
+    },
+    {
+      "id": 15,
+      "status": "todo",
+      "category": "Digitalisation",
+      "title": "IA générative au quotidien : 5 usages concrets pour un dirigeant de PME (sans expertise technique)",
+      "slug": "ia-generative-usages-concrets-pme",
+      "angle": "Cas d'usage pratiques et sans jargon (rédaction de contenus, réponses au service client, veille concurrentielle, préparation de rendez-vous). Faire le lien avec l'article déjà publié sur le SEO et le GEO.",
+      "cta_service": "services/creation-site-web.html"
+    },
+    {
+      "id": 16,
+      "status": "todo",
+      "category": "PME & terrain",
+      "title": "Étude de cas : comment un repositionnement change la conversation commerciale d'un client",
+      "slug": "etude-cas-repositionnement-conversation-commerciale",
+      "angle": "Cas anonymisé illustrant un avant/après suite à un audit puis un repositionnement : comment les objections des prospects changent de nature une fois le message clarifié.",
+      "cta_service": "services/audit-marketing.html"
+    }
+  ]
+}
