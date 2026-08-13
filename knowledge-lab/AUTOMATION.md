@@ -6,10 +6,11 @@ conçu pour être exécuté par une session Claude fraîche, sans mémoire des s
 précédentes — tout ce qui est nécessaire doit donc se trouver ici ou dans les
 fichiers qu'il référence.
 
-Dépôt : `https://github.com/GomandConsult/Gomand-Consult-Web` (branche `main`).
+Dépôt : `https://github.com/Gomand-Consult/Gomand-Consult-Web` (branche `main`).
 Le site est un site statique HTML déployé automatiquement par Netlify à chaque
-push sur `main` — il n'y a pas de build à lancer, pas de PR à ouvrir. Un push
-direct sur `main` met le site en ligne.
+push sur `main` — il n'y a pas de build à lancer. En revanche, **toute
+publication passe par une Pull Request** : le propriétaire du site relit et
+merge lui-même avant que l'article soit en ligne (voir étape 9).
 
 ## Étapes à suivre à chaque exécution
 
@@ -43,9 +44,17 @@ direct sur `main` met le site en ligne.
 8. **Mettre à jour `knowledge-lab/_backlog.json`** : passer le sujet publié en
    `"status": "published"` avec la date du jour en `"published_date"`
    (`AAAA-MM-JJ`).
-9. **Commit et push directement sur `main`.** Message de commit au format :
-   `Publie l'article "<titre court>" (Knowledge Lab)`. Pas de revue humaine
-   avant publication — c'est le fonctionnement voulu par le client.
+9. **Ne jamais commit/push directement sur `main`.** Créer une branche dédiée
+   nommée `article/<slug>`, y commit tous les changements (message au format
+   `Publie l'article "<titre court>" (Knowledge Lab)`), la pousser, puis ouvrir
+   une Pull Request vers `main` avec :
+   - Titre : `Knowledge Lab : <titre court de l'article>`
+   - Description : le résumé de l'article (`angle` du backlog), la catégorie,
+     et la liste des fichiers modifiés.
+   Puis **s'arrêter** — ne pas merger la PR. La revue et le merge sont faits
+   par le propriétaire du site (ou sur sa demande explicite). C'est le
+   fonctionnement voulu par le client : chaque article est relu avant d'être
+   visible publiquement.
 
 ## Gabarit exact d'un article
 
